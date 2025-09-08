@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="style.css">
+    <title>Menghitung Biaya Parkir Kendaraan</title>
+  </head>
+  <body>
+    <h1>Menghitung Biaya Parkir Kendaraan</h1>
+
+    <label for="jenis">Jenis Kendaraan :</label>
+    <select id="jenis">
+      <option value="">-- Pilih --</option>
+      <option value="motor">Motor</option>
+      <option value="mobil">Mobil</option>
+    </select>
+
+    <label for="lama">Lama Parkir (jam) :</label>
+    <input type="number" id="lama" placeholder="Masukkan lama parkir" />
+
+    <button onclick="hitungParkir()">Hitung Biaya</button>
+
+    <div id="hasil"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

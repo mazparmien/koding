@@ -1,0 +1,6 @@
+01 : Variabel
+02 : if then dan looping
+03 : Type data Objek
+04 : Fungsi
+
+Buat
